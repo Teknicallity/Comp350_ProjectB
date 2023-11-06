@@ -29,7 +29,8 @@ int main() {
     interrupt(0x21,0,line,0,0);
 
 
-    return 0;
+    //no return statement
+    while(1);
 }
 
 void printString(char chars[]){
