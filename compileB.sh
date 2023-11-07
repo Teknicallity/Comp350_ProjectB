@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#put together by Joshua Sheputa
+
 # creates diskc.img
 dd if=/dev/zero of=diskc.img bs=512 count=1000
 
